@@ -33,7 +33,8 @@ while chances >= 1:
     else:
         chances -= 1
         print(*underlines, sep=" ")
-        letter_guess = input(f'Sorry, no go. You have {chances} remaining. Try again: ')
+        letter_guess = input(
+            f'Sorry, no go. You have {chances} remaining. Try again: ')
 else:
     print(f'\nThe word was {guessing_word}')
-    print("You've been lynched, better luck next time.")
+    print("You've been hanged, better luck next time.")
